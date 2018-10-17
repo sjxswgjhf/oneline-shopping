@@ -11,10 +11,11 @@
    ">
    <!-- loading static resources -->
    <mvc:annotation-driven/>
-   <mvc:resources location="/assets/" mapping="/resources/**"	 />
+   <mvc:resources location="resources/assets/" mapping="/resources/**"	 />
    <mvc:default-servlet-handler />
    <context:annotation-config />
    <context:component-scan base-package="net.sjx.myonlineshopping.controller" />
+   <context:component-scan base-package="net.sjx.myonlineshoppingbackend.daoimpl" />
    <bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		

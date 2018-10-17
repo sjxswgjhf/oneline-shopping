@@ -13,6 +13,14 @@
   </properties>
   
   <dependencies>
+  
+  <!-- Link backend project -->
+	  <dependency>
+		  <groupId>net.sjx</groupId>
+		  <artifactId>myonlineshoppingbackend</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+	  </dependency>
+	  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
